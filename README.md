@@ -4,9 +4,7 @@ Uso dessa ferramenta é analise do trafego de rede.
 
 Usado por profisionais/administradores de redes de computadores para analise de vulnerabilidade, por exemplo caso seu servidor web esteja sofrendo algum ataque externo na rede, é possivel realizar a captura dos pacotes de rede e analisas as informações.
 
-Exemplo 1:
-
-Instalando o **TCPDUMP** no linux.
+## Exemplo 1: Instalando o **TCPDUMP** no linux.
 
 ```
 └─$ sudo apt install tcpdump
@@ -35,9 +33,7 @@ Scanning processor microcode...
 Scanning linux images...
 ```
 
-Exemplo 2:
-
-Analisando pacote na rede.
+## Exemplo 2: Analisando pacote na rede.
 
 ![image](https://user-images.githubusercontent.com/33209944/210156323-1d0afb28-52d4-4792-9c22-dc74d0a252d0.png)
 
@@ -51,7 +47,7 @@ Imagine que queremos analisar um servidor Web que pode estar sofrendo um ataque 
 
 Existe muitas opções de parametros que pode ser usado. Caso tenha interesse em saber digite o comando **man tcpdump**.
 
-Exemplo 3:
+## Exemplo 3: Capturar e Gravar um arquivo!
 
 Vamos colocar um situação em que você deseja capturar o trafego e analsar o conteúdo mais tarde.
 
@@ -95,6 +91,11 @@ Porem o **tcpdump** utiliza um outro tipo de flag (-r) que possibilita ler o con
 Agora gostariamos de filtrar as informações do arquivo apenas das consultas **ICMP**, podemos usar o seguinte comando:
 
 ![image](https://user-images.githubusercontent.com/33209944/210157700-7dcd746e-9fe4-4752-b4f9-4e31a6c566f8.png)
+
+## Exemplo 4: Fazendo capturar e filtrando ao mesmo tempo sem gravar arquivo...
+
+![image](https://user-images.githubusercontent.com/33209944/210157907-1cf50a61-639d-4a6f-acad-f48ae9a231cd.png)
+
 
 
 
