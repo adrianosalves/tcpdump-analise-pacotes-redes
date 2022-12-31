@@ -84,13 +84,17 @@ tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 
 
 ```
 
-Se fizermos uma consulta do arquivo com o simples comando **cat** não será possivel ler essas informações:
+Se fizermos uma consulta do arquivo com o simples comando **cat** não será possivel ler essas informações pois o aplicativo padrão que ler esse tipo de arquivo com a extensão .cap é o **Wireshark**:
 
 ![image](https://user-images.githubusercontent.com/33209944/210157560-e9e2ffd9-1e8d-4ff5-8f2d-f09533b1d686.png)
 
-O **tcpdump** utiliza um outro tipo de flag (-r) que possibilita ler o conteúdo do arquivo em modo texto:
+Porem o **tcpdump** utiliza um outro tipo de flag (-r) que possibilita ler o conteúdo do arquivo em modo texto:
 
 ![image](https://user-images.githubusercontent.com/33209944/210157587-a4f40d46-57fc-416f-b249-9052a56afe31.png)
+
+Agora gostariamos de filtrar as informações do arquivo apenas das consultas **ICMP**, podemos usar o seguinte comando:
+
+![image](https://user-images.githubusercontent.com/33209944/210157700-7dcd746e-9fe4-4752-b4f9-4e31a6c566f8.png)
 
 
 
