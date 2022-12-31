@@ -81,7 +81,8 @@ tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 
 
 ┌──(kali㉿ALVESNET-NT001)-[/mnt/c/Install/tcpdump-analise]
 └─$
-´´´
+
+```
 
 Se fizermos uma consulta do arquivo com o simples comando **cat** não será possivel ler essas informações:
 
