@@ -41,7 +41,7 @@ Analisando pacote na rede.
 
 ![image](https://user-images.githubusercontent.com/33209944/210156323-1d0afb28-52d4-4792-9c22-dc74d0a252d0.png)
 
-O **TCPDUMP** ele faz um **DUMP** do trafego de rede mostrando em tela a descrisção da conexão e do conteúdo dos pacotes que está passando na rede durante a interface de rede que foi selecionada no comando, o exemplo acima está analisando a interface de rede **eth0** do Linux. 
+O **TCPDUMP** ele faz um **DUMP** do trafego de rede mostrando em tela a descrição da conexão e do conteúdo dos pacotes que está passando na rede durante a interface de rede que foi selecionada no comando, o exemplo acima está analisando a interface de rede **eth0** do Linux. 
 
 Observe que temos muita informação!
 
