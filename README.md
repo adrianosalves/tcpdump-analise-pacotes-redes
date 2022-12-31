@@ -1,8 +1,8 @@
 # TCPDUMP - Analise de pacotes de redes
 
-Uso dessa ferramenta analise de rede.
+Uso dessa ferramenta é analise do trafego de rede.
 
-Usado por profisionais/administradores de rede para analise de vulnerabilidade exemplo caso seu servidor web esteja sofrendo algum ataque exeterno na rede, realizando a captura do pacote de rede.
+Usado por profisionais/administradores de redes de computadores para analise de vulnerabilidade, por exemplo caso seu servidor web esteja sofrendo algum ataque externo na rede, é possivel realizar a captura dos pacotes de rede e analisas as informações.
 
 Exemplo 1:
 
