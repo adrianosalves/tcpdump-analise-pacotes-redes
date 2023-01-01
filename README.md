@@ -110,6 +110,11 @@ No exemplo abaixo limitando o nosso filtro com até 4 consultas *ICMP*
 
 ![image](https://user-images.githubusercontent.com/33209944/210158075-2628c826-5045-4f79-af83-ea4529de1c38.png)
 
+## Exemplo 7: Captura de pacotes e filtrando, sem resolução de nome de computadores...
+
+No exemplo abaixo eliminando com a flag **-n** a resolução do nome de computadores.
+
+![image](https://user-images.githubusercontent.com/33209944/210158119-40dc4db2-b4af-476a-9f5f-16d0c984abb2.png)
 
 
 
