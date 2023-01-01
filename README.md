@@ -1,6 +1,6 @@
 # TCPDUMP - Analise de pacotes de redes
 
-Uso dessa ferramenta é analise do trafego de rede.
+Uso dessa ferramenta é para analise do trafego de rede.
 
 Usado por profisionais/administradores de redes de computadores para analise de vulnerabilidade, por exemplo caso seu servidor web esteja sofrendo algum ataque externo na rede, é possivel realizar a captura dos pacotes de rede e analisas as informações.
 
@@ -115,6 +115,12 @@ No exemplo abaixo limitando o nosso filtro com até 4 consultas *ICMP*
 No exemplo abaixo eliminando com a flag **-n** a resolução do nome de computadores.
 
 ![image](https://user-images.githubusercontent.com/33209944/210158119-40dc4db2-b4af-476a-9f5f-16d0c984abb2.png)
+
+## Exemplo 8: ...filtrando, para descobrir a origem dos pacotes...
+
+Vamos descobrir o IP da nossa estação windows (Possivel atacante!) de origem, com o uso das seguintes flag **-src** e o IP.
+
+![image](https://user-images.githubusercontent.com/33209944/210158258-2bd93c66-e343-4e05-8508-352924e88d8f.png)
 
 
 
