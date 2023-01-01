@@ -92,9 +92,23 @@ Agora gostariamos de filtrar as informações do arquivo apenas das consultas **
 
 ![image](https://user-images.githubusercontent.com/33209944/210157700-7dcd746e-9fe4-4752-b4f9-4e31a6c566f8.png)
 
-## Exemplo 4: Fazendo capturar e filtrando ao mesmo tempo sem gravar arquivo...
+## Exemplo 4: Captura de pacotes e filtrando ao mesmo tempo sem gravar arquivo...
+
+No exemplo abaixo fizemos uma consulta apenas do **protocolo ICMP** para descobrir quem está fazendo solicitação de **ping** dentro da rede. Podemos fazendo consulta e filtrar outros protocolos (http, udp, tcp etc...).
 
 ![image](https://user-images.githubusercontent.com/33209944/210157907-1cf50a61-639d-4a6f-acad-f48ae9a231cd.png)
+
+## Exemplo 5: Captura de pacotes e filtrando o protocolo ARP...
+
+No exemplo abaixo a consulta ao protocolo ARP podemos descobrir quem está fazendo o ataque **man-in-the-middle** se existe algum atacante tentando se passar pelo roteador dentro da rede.
+
+![image](https://user-images.githubusercontent.com/33209944/210158028-6a3a0327-005e-4e39-9d9c-b30a58f870d4.png)
+
+## Exemplo 6: Captura de pacotes e filtrando com limite...
+
+No exemplo abaixo limitando o nosso filtro com até 4 consultas *ICMP*
+
+![image](https://user-images.githubusercontent.com/33209944/210158075-2628c826-5045-4f79-af83-ea4529de1c38.png)
 
 
 
