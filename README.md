@@ -65,7 +65,7 @@ Segundo vamos deixar atraves de um computador Windows realizar uma consulta de *
 
 ![image](https://user-images.githubusercontent.com/33209944/210157492-da48a9f1-4b66-4c9f-9ff8-775bc7588a8e.png)
 
-Terceiro iremos interceptar essas informações e gravar em um arquivo.
+Terceiro iremos interceptar essas informações e gravar em um arquivo usando a flag **-w**.
 
 ```
 ┌──(kali㉿ALVESNET-NT001)-[/mnt/c/Install/tcpdump-analise]
@@ -84,7 +84,7 @@ Se fizermos uma consulta do arquivo com o simples comando **cat** não será pos
 
 ![image](https://user-images.githubusercontent.com/33209944/210157560-e9e2ffd9-1e8d-4ff5-8f2d-f09533b1d686.png)
 
-Porem o **tcpdump** utiliza um outro tipo de flag (-r) que possibilita ler o conteúdo do arquivo em modo texto:
+Porem o **tcpdump** utiliza um outro tipo de flag **-r** que possibilita ler o conteúdo do arquivo em modo texto:
 
 ![image](https://user-images.githubusercontent.com/33209944/210157587-a4f40d46-57fc-416f-b249-9052a56afe31.png)
 
@@ -122,5 +122,5 @@ Vamos descobrir o IP da nossa estação windows (Possivel atacante!) de origem, 
 
 ![image](https://user-images.githubusercontent.com/33209944/210158258-2bd93c66-e343-4e05-8508-352924e88d8f.png)
 
-A situação mencionada acima lembra muito bem um possivel ataque de **DDOS** caso não se tenha um IDS (Sistema de Detecção de Intruso) podemos usar o **tcpdump** para analisar os pacotes de red, e caso identifique um possivel ataque sabendo a origem pelo **IP** podemos bloquea esse ataque restringir a origem do IP. 
+A situação mencionada acima lembra muito bem um possivel ataque de **DDOS** caso não se tenha um IDS (Sistema de Detecção de Intruso) podemos usar o **tcpdump** para analisar os pacotes da rede, e caso identifique um possivel ataque sabendo a origem pelo **IP** podemos bloquea esse ataque restringir a origem do IP. 
 
