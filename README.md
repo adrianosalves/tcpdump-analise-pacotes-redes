@@ -122,6 +122,5 @@ Vamos descobrir o IP da nossa estação windows (Possivel atacante!) de origem, 
 
 ![image](https://user-images.githubusercontent.com/33209944/210158258-2bd93c66-e343-4e05-8508-352924e88d8f.png)
 
-
-
+A situação mencionada acima lembra muito bem um ataque de DDOS caso não se tenha um IDS (Sistema de Detecção de Intruso) pode ser usar o **tcpdump** para analisar os pacotes de rede e caso identifique um possivel ataque sabendo a origem pelo IP podemos bloquea esse ataque restringir a origem do IP. 
 
